@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bootstrap5</title>
+	<!-- css link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="container">
+    <!-- from -->
+   <form>
+   <div class="mb-3">
+    <label for="email1" class="form-label">Email address</label>
+    <input type="email" class="form-control email1" id="email1" name="password1" required="">
+  </div>
+
+  <div class="mb-3">
+    <label for="password1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password1" name="password1" required="">
+  </div>
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input check1" id="check1">
+    <label class="form-check-label" for="check1">Check me out</label>
+    </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+  </form>
+  <!-- from -->
+  <!-- from-val -->
+  <!-- f_name -->
+  <form class="row g-3 needs-validation" novalidate="">
+  <div class="col-md-6">
+    <label for="f_name" class="form-label">First name</label>
+    <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your first Name" required="">
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter your first Name.
+    </div>
+  </div>
+
+  <!-- last name -->
+  <div class="col-md-6">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter your last name" required="">
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter your last name.
+    </div>
+  </div>
+
+  <!-- email -->
+  <div class="col-md-12">
+    <label for="email" class="form-label">Email Address</label>
+    <input type="email" class="form-control email" id="email" name="email" placeholder="Enter your email address" required="">
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter your email address.
+    </div>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+<!-- from vald-->
+    </div>
+
+<h1>hello world</h1>
+<div class="cont">
+<div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+</di>
+
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<label for="inputPassword5" class="form-label">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
